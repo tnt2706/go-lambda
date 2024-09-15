@@ -1,0 +1,3 @@
+cmd/ec2/*.zip
+cmd/hello/*.zip
+cmd/s3/*.zip
