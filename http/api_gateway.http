@@ -1,0 +1,17 @@
+@BaseURL = https://1ouwqguzmj.execute-api.us-east-2.amazonaws.com/dev
+
+
+### Healthcheck
+
+GET {{BaseURL}}/health HTTP/1.1
+
+### Create user
+
+POST {{BaseURL}}/user/create HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Tran Tinh",
+    "email": "Tranngoctinh96@gmail.com"
+}
+
